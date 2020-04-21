@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/home2.jpg");
+    background-image: url("/images/gris2.jpg");
 }
 
 #logotipo {
@@ -20,7 +20,6 @@ label, input {
     position: relative;
     top: 55px;
     left: 680px;
-    background-color: #6370ff ;
 }
 
 #recursoDos {
@@ -28,7 +27,6 @@ label, input {
     position: relative;
     top: 55px;
     left: 730px;
-    background-color: #6370ff ;
 }
 
 #recursoTres {
@@ -36,11 +34,9 @@ label, input {
     position: relative;
     top: 55px;
     left: 780px;
-    background-color: #6370ff ;
 }
 
 #tituloCentral {
-    background-color: #6370ff ;
     clear: both;
 }
 
@@ -50,27 +46,42 @@ label, input {
     display: inline;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: #6370ff ;
+    background-color: #AEB6BF ;
 }
 
 
 /* BODY */
 
-#historia{
-    width: 25%;
+.historia{
+    width: 45%;
     float: left;
+    background-color: #CACFD2 ;
+    border: 4px #808289 solid; 
 }
 
-#redes{
-    width: 25%;
+#ima_historia{
+    margin-top: 60px;
+    margin-left: 70px;
     float: left;
-
+    border: 4px lightcoral solid; 
 }
 
-#socialAdolecentes{
+.redes{
+    clear: both;
+    /*
+    width: 35%;
+    float: left;
+    +/
+}
+
+.socialAdolecentes{
+    clear: both;}
+    /*
     width: 25%;
     float: left;
+*/
 }
+
 
 #pie_pag {
     clear: both;
