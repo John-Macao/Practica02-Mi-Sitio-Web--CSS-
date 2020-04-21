@@ -10,20 +10,27 @@
 
 <body>
     <header>
+      <link href="../css/diseñoHome.css" rel="stylesheet" type="text/css">
 
-      <link href="estilos.css" rel="stylesheet" type="text/css">
+      <img id="logotipo" src="../images/logo1.png"
+       alt="Logotipo de la pagina">
 
-      <img src="../images/logo1.png"
-       alt="Logotipo de la pagina" 
-       width="400" height="300" > 
+       <img id="recursoUno" src="../images/usuario.png" >
+       <img id="recursoDos" src="../images/correo.png">
+       <img id="recursoTres" src="../images/opciones.png" >
+       
+       
 
-       <h1> Las Redes Sociales </h1>
-        <hr style="border-color: black;background-color: black;"/>
+       <label for="buscar">Buscar:</label>
+       <input type="text" id="buscar"/>
 
+       <h1 id="tituloCentral"> Las Redes Sociales </h1>
+
+        
         <nav>
-          <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="facebook.html">Facebook</a></li>
+          <ul id="lista_nav">
+              <li><a  href="index.html">Inicio</a></li>
+              <li><a  href="facebook.html">Facebook</a></li>
               <li><a href="instagram.html">Instagram</a></li>
               <li><a href="whatsapp.html">WhatsApp</a></li>
               <li><a href="tumblr.html">Tumblr</a></li>
@@ -35,10 +42,10 @@
       </nav>
     </header>
 
-    <section>
+    <section id="historia">
       <article>
         <header>
-          <h2 class="destacados"> 
+          <h2 > 
             
             Un poco de historia
         </h2>
@@ -101,7 +108,7 @@
       </article>
   </section>
 
-  <section>
+  <section id="redes">
     <article>
       <header>
         <h2>
@@ -131,7 +138,7 @@
     </article>
   </section>
 
-  <section>
+  <section id="socialAdolecentes">
     <article>
       <header>
         <h2>
@@ -163,7 +170,7 @@
     </article>
 </section>
 
-    <footer>
+    <footer id="pie_pag">
       <hr style="border-color: black;background-color: black;"/>
         Jhon Michael Macao Guamán <br>
         Universidad Politecnica Salesiana<br>

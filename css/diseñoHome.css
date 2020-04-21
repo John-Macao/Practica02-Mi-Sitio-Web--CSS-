@@ -1,0 +1,77 @@
+body {
+    background-image: url("/images/home2.jpg");
+}
+
+#logotipo {
+    width: 27%;
+    height: 140px;
+    float: left;
+}
+
+label, input {
+    width: 29%;
+    position: relative;
+    top: 40px;
+    background-color: #f5f6f9 ;
+}
+
+#recursoUno {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 680px;
+    background-color: #6370ff ;
+}
+
+#recursoDos {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 730px;
+    background-color: #6370ff ;
+}
+
+#recursoTres {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 780px;
+    background-color: #6370ff ;
+}
+
+#tituloCentral {
+    background-color: #6370ff ;
+    clear: both;
+}
+
+
+/* NAVEGACION*/ 
+#lista_nav li {
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #6370ff ;
+}
+
+
+/* BODY */
+
+#historia{
+    width: 25%;
+    float: left;
+}
+
+#redes{
+    width: 25%;
+    float: left;
+
+}
+
+#socialAdolecentes{
+    width: 25%;
+    float: left;
+}
+
+#pie_pag {
+    clear: both;
+}
