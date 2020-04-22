@@ -66,12 +66,100 @@ label, input {
     border: 4px lightcoral solid; 
 }
 
+.tituloHistoria{
+    position: relative;
+    left: 35%;
+    border: 4px #808289 solid;
+}
+
 .redes{
-    clear: both;
+    border: 4px #808289 solid;
+    margin-top: 30px;
+    float: left;
     /*
+    clear: both;
     width: 35%;
     float: left;
-    +/
+    +*/
+}
+.centradoTitulo{
+    text-align:center;
+    /*padding:1px; */
+}
+
+.dimensionImg{
+    width: 200px;
+}
+
+/*MOVIMIENTO DE IMAGENES */
+.imgUno img {
+
+    /*
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #AEB6BF ;
+    */
+    position: relative;
+    left: 3%;
+    border: 4px #808289 solid;
+
+}
+
+.imgDos img {
+    position: relative;
+    bottom: 100px;
+    left: 13%;
+
+    border: 4px #808289 solid;
+}
+
+.imgTres {
+    float: left;
+    /*
+    position: relative;
+    left: 23%;
++/
+}
+
+.imgCuatro {
+    float: left;
+    /*
+    position: relative;
+    left: 33%;
+*/
+}
+
+.imgCinco {
+    float: left;
+    /*
+    position: relative;
+    left: 43%;
+*/
+}
+
+.imgSeis {
+    float: left;
+    /*
+    position: relative;
+    left: 53%;
+*/
+}
+
+.imgSiete {
+    float: left;
+    /*
+    position: relative;
+    left: 63%;
+*/
+}
+
+.imgOcho {
+    float: left;
+    /*
+    position: relative;
+    left: 73%;
+*/
 }
 
 .socialAdolecentes{
