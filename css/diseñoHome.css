@@ -53,10 +53,10 @@ label, input {
 /* BODY */
 
 .historia{
+    margin: auto;
     width: 45%;
     float: left;
-    background-color: #CACFD2 ;
-    border: 4px #808289 solid; 
+    background-color: #CACFD2 ; 
 }
 
 #ima_historia{
@@ -73,101 +73,94 @@ label, input {
 }
 
 .redes{
-    border: 4px #808289 solid;
     margin-top: 30px;
     float: left;
-    /*
-    clear: both;
-    width: 35%;
-    float: left;
-    +*/
 }
 .centradoTitulo{
     text-align:center;
-    /*padding:1px; */
 }
 
 .dimensionImg{
     width: 200px;
 }
 
-/*MOVIMIENTO DE IMAGENES */
-.imgUno img {
+/*GALERIA DE IMAGENES */
+.margenGaleria {
+    background-color: #CACFD2;
+}
 
-    /*
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #AEB6BF ;
-    */
-    position: relative;
-    left: 3%;
-    border: 4px #808289 solid;
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 5px;
 
 }
 
-.imgDos img {
-    position: relative;
-    bottom: 100px;
-    left: 13%;
-
-    border: 4px #808289 solid;
+.galeria img {
+    width: 120px;
+    height: 90px;
 }
 
-.imgTres {
-    float: left;
-    /*
-    position: relative;
-    left: 23%;
-+/
+.videoR{
+    text-align:center;
+    margin: auto;
+    padding: 15px;
 }
 
-.imgCuatro {
-    float: left;
+
+.personajes {
+    background-color: #CACFD2 ; 
+    clear: both;
+}
+
+.creadores {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.creadores li {
+    margin: 5px;
+
+}
+
+.creadores img {
     /*
-    position: relative;
-    left: 33%;
+    width: 220px;
+    height: 170px;
 */
+    border: 4px black solid;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
 }
 
-.imgCinco {
-    float: left;
-    /*
+.creadores figure{
     position: relative;
-    left: 43%;
-*/
 }
 
-.imgSeis {
-    float: left;
-    /*
-    position: relative;
-    left: 53%;
-*/
-}
-
-.imgSiete {
-    float: left;
-    /*
-    position: relative;
-    left: 63%;
-*/
-}
-
-.imgOcho {
-    float: left;
-    /*
-    position: relative;
-    left: 73%;
-*/
-}
-
-.socialAdolecentes{
-    clear: both;}
-    /*
-    width: 25%;
-    float: left;
-*/
+.creadores figcaption {
+    position: absolute;
+    left: 0px;
+    top: 233px;;
+    border: 1px rgb(0, 0, 0) solid;
+    width: 94%;
+    padding: 3px;
 }
 
 
