@@ -53,36 +53,37 @@ Pagina whatsapp.html
 
 ## 4.	Luego se debe crear el archivo README del repositorio.
 
-
-
 ## 5.	Generar un informe de los resultados en el formato de prácticas. Debe incluir:
 
 ### a.	 El desarrollo de cada uno de los puntos antes descritos, así como las reglas CSS utilizadas para resolver cada punto:
 
  En esta parte del estilo nos permite visualizar el fondo que aparece detrás de todo el loby, a su ves el logotipo de la pagina con los valores establecidos como se observa.
 
+![2](/imagesReadMe/img17.png?raw=true "Title")
 
 En esta parte definimos la forma que el que se visualizara el label y el input
+
+![2](/imagesReadMe/img18.png?raw=true "Title")
 
 
 Como podemos ver definimos selectores para establecer las imágenes de usuario, correo y telefono
 
+![2](/imagesReadMe/img19.png?raw=true "Title")
 
+Como bien lo dice, en esta parte del estilo realizamos el estilo de navegación y la ponemos de forma horizontal con “display: inline”
 
+![2](/imagesReadMe/img20.png?raw=true "Title")
 
+Establecemos la parte del body para dividirle en dos partes 
 
+![2](/imagesReadMe/img21.png?raw=true "Title")
 
+A su vez establecemos la imagen siguiente al texto dicho anteriormente
 
+![2](/imagesReadMe/img22.png?raw=true "Title")
 
+En este estilo establecemos los valores para la visualización de la galería de imágenes
 
-
-
-
-
-
-
-
-
-
+![2](/imagesReadMe/img23.png?raw=true "Title")
 
 
