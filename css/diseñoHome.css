@@ -152,10 +152,6 @@ label, input {
 }
 
 .creadores img {
-    /*
-    width: 220px;
-    height: 170px;
-*/
     border: 4px black solid;
     width: 220px;
     height: 220px;

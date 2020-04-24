@@ -79,7 +79,7 @@ label, input {
 
 .ultima {
     margin: 10px;
-    padding-top: auto;
+    padding-top: 1px;
     border-top: 2px black dashed;
     clear: both;
 
