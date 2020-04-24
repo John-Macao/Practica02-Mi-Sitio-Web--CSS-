@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/fondos/rojo_fondo.jfif");
+    background-image: url("/images/fondos/fondo_insta.jpg");
     margin: 0;
 }
 
@@ -41,57 +41,62 @@ label, input {
     clear: both;
 }
 
-
 #lista_nav li {
     display: inline;
     padding-left: 45px;
     padding-right: 45px;
     background-color: #AEB6BF ;
+    
 }
 
 
 
-.menu {
+.izq {
     width: 15%;
     float: left;
-    border-bottom: 1px tomato solid;
     padding: 4px;
     margin: 4px;
-
 }
 
-.central {
-    width: 55%;
+.der {
+    width: 80%;
     padding-bottom: 15px;
     border-left: 2px black dashed;
-    border-right: 2px black dashed;
     padding-left: 2%;
     float: left;
+}
+
+.der img {
+    width: 350px;
+    height: 240px;
+    margin-left: 30%;
+}
+
+.ultima {
+    margin: 10px;
+    padding-top: auto;
+    border-top: 2px black dashed;
+    clear: both;
 
 }
 
-.central img {
-    width: 240px;
-    height: 150px;
-    padding-left: 35%;
+.ultima header {
+    text-align: center;
 }
 
-.lateral {
-    width: 20%;
-    padding-bottom: 15px;
-    padding-left: 2%;
-    float: left;
-
+.ultima img {
+    width: 350px;
+    height: 240px;
+    margin-left: 40%;
 }
 
-.lateral img {
-    width: 210px;
-    height: 135px;
-    padding-left: 0%;
+#descripcion {
+    margin-left: 40%;
 }
+
 
 .separador {
-    margin: 7%;
+    margin: 3%;
     clear: both;
 }
 
