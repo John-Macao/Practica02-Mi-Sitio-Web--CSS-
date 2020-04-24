@@ -10,15 +10,21 @@
 
 <body>
     <header>
-      <img src="../images/logo1.png"
-       alt="Logotipo de la pagina" 
-       width="400" height="300" > 
+      <link href="../css/diseño_snap.css" rel="stylesheet" type="text/css">
 
-    <h1> Red Social SnapChat </h1>
-        <hr style="border-color: black;background-color:rebeccapurple;"/>
+      <img id="logotipo" src="../images/logo1.png" alt="Logotipo de la pagina"  > 
+
+      <img id="recursoUno" src="../images/usuario.png">
+       <a href="mailto:jmacao@est.ups.edu.ec"><img id="recursoDos" src="../images/correo.png"></a>
+       <a href="tel:+0989449535"><img id="recursoTres" src="../images/opciones.png" ></a>
+       
+       <label for="buscar">Buscar:</label>
+       <input type="text" id="buscar"/>
+
+    <h1 id="tituloCentral" > Red Social SnapChat </h1>
 
         <nav>
-            <ul>
+            <ul id="lista_nav">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="facebook.html">Facebook</a></li>
                 <li><a href="instagram.html">Instagram</a></li>
@@ -32,7 +38,40 @@
         </nav>
     </header>
 
-    <section>
+    
+    
+    <section class="izq">
+      <article>
+        <head>
+          <h2> Novedades </h2>
+        </head>
+
+        <aside>
+          <header>
+            <h3>Diferentes tipografías en las historias</h3>
+          </header>
+          <p>
+            Ahora todo lo que escribas en una de tus stories puede ser en diferentes 
+            tipos de letra. Para ello solamente tienes que escribir como lo hacías 
+            antes y después pulsar a la opción que te sale arriba del todo centrada. 
+            Así podrás decidir cual te gusta más.
+          </p>
+        </aside>
+
+
+        <aside>
+          <header>
+            <h3>GIFs en las Instagram Stories</h3>
+          </header>
+          <p>
+            Una de las novedades más sorprendentes de la red social, ha añadido la opción de poner GIFs en las historias.
+          </p>
+        </aside>
+      </article>
+    </section>
+
+
+    <section class="der">
       <article>
         <header>
           <h2>
@@ -49,12 +88,10 @@
             </p>
 
           <aside>
-              <img src="../Images/snapchat_imagen.png" alt="linkedIn"   style="width:400px;height:250px" /><br>
+              <img src="../Images/snapchat_imagen.png" alt="linkedIn" /><br>
             </aside>
       </article>
-  </section>
 
-  <section>
     <article>
       <header>
         <h2>
@@ -73,7 +110,7 @@
             puede verlo presionando sobre el icono correspondiente.
         </p>
         <aside>
-            <img src="../Images/snapchat_funcionamiento.jpg" alt="linkedIn"   style="width:400px;height:250px" /><br>
+            <img src="../Images/snapchat_funcionamiento.jpg" alt="linkedIn" /><br>
             <p>
                 Una imagen dividida, es uno de los funcionamientos que ofrece Snapchat.
             </p>
@@ -81,15 +118,20 @@
     </article>
 </section>
 
-    <footer>
-      <hr style="border-color: black;background-color: black;"/>
-        Jhon Michael Macao Guamán <br>
-        Universidad Politecnica Salesiana<br>
-        Correo: <a href="mailto:jmacao@est.ups.edu.ec">jmacao@est.ups.edu.ec</a><br>
-        Telefono: <a href="tel:+0989449535">0989449535</a><br>
-        &copy; Todos los derechos reservados.
+<div class="separador">
+</div>
 
-    </footer>
+  <footer class="pie_pag">
+    <span>Autor: Jhon Michael Macao Guamán <br>
+      Universidad Politecnica Salesiana<br>
+      Correo: <a href="mailto:jmacao@est.ups.edu.ec">jmacao@est.ups.edu.ec</a><br>
+      Telefono: <a href="tel:+0989449535">0989449535</a><br>
+    </span>
+
+    <span class="copy">
+      &copy; Todos los derechos reservados.
+    </span>
+  </footer>
 </body>
 
 </html>
