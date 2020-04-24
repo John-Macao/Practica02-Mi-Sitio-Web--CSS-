@@ -59,6 +59,7 @@ label, input {
 
 .separador {
     margin: 7%;
+    clear: both;
 }
 
 .pie_pag {

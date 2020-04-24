@@ -40,3 +40,63 @@ label, input {
 #tituloCentral {
     clear: both;
 }
+
+
+.menu {
+    width: 10%;
+    float: left;
+    border-bottom: 1px tomato solid;
+}
+
+.central {
+    width: 55%;
+    padding-bottom: 15px;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    padding-left: 2%;
+    float: left;
+
+
+}
+
+.central img {
+    width: 240px;
+    height: 150px;
+    padding-left: 35%;
+}
+
+.lateral {
+    width: 25%;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    float: left;
+
+}
+
+.lateral img {
+    width: 280px;
+    height: 180px;
+    padding-left: 0%;
+}
+
+.separador {
+    margin: 7%;
+    clear: both;
+}
+
+.pie_pag {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    border-top: 2px black solid ;
+    border-bottom: 2px black solid ;
+    margin: 0px;
+    background-color: #4A4B4C; 
+    text-align: center;
+    clear: both;
+}
+
+.copy {
+    float: left;
+    margin-left: 10px;
+}
