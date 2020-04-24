@@ -1,0 +1,79 @@
+body {
+    background-image: url("/images/fondos/azul_end.jpg");
+    margin: 0;
+}
+
+#logotipo {
+    width: 27%;
+    height: 140px;
+    float: left;
+}
+
+label, input {
+    width: 29%;
+    position: relative;
+    top: 40px;
+    background-color: #f5f6f9 ;
+}
+
+#recursoUno {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 680px;
+}
+
+#recursoDos {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 730px;
+}
+
+#recursoTres {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 780px;
+}
+
+#tituloCentral {
+    clear: both;
+}
+
+
+.izq {
+    width: 15%;
+    float: left;
+}
+
+.der {
+    width: 80%;
+    padding-bottom: 15px;
+    border-left: 2px black solid;
+    padding-left: 2%;
+    float: left;
+}
+
+
+
+.separador {
+    margin: 7%;
+}
+
+.pie_pag {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    border-top: 2px black solid ;
+    border-bottom: 2px black solid ;
+    margin: 0px;
+    background-color: #4A4B4C; 
+    text-align: center;
+    clear: both;
+}
+
+.copy {
+    float: left;
+    margin-left: 10px;
+}

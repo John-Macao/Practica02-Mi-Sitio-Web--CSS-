@@ -10,14 +10,23 @@
 
 <body>
     <header>
-      <img src="../images/logo1.png"
-       alt="Logotipo de la pagina" 
-       width="400" height="300" > 
+      <link href="../css/dosColumnas.css" rel="stylesheet" type="text/css">
 
-    <h1> Red Social Facebook </h1>
-        <hr style="border-color: black;background-color:blue;"/>
+      <img id="logotipo" src="../images/logo1.png" alt="Logotipo de la pagina">
 
-        <nav>
+       <img id="recursoUno" src="../images/usuario.png">
+       <a href="mailto:jmacao@est.ups.edu.ec"><img id="recursoDos" src="../images/correo.png"></a>
+       <a href="tel:+0989449535"><img id="recursoTres" src="../images/opciones.png" ></a>
+       
+       <label for="buscar">Buscar:</label>
+       <input type="text" id="buscar"/>
+
+
+    <h1 id="tituloCentral" > Red Social Facebook </h1>
+
+
+
+        <nav class="izq">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="facebook.html">Facebook</a></li>
@@ -34,7 +43,7 @@
     </header>
 
 
-    <section>
+    <section class="der">
       <article>
         <header>
           <h2>
@@ -71,58 +80,57 @@
                 <source src="../audios/sonido_mesenger.mp3" type="audio/mpeg">
                 El navegador no soporta el formato de audio mp3.
             </audio>
+
+
+
+            <article>
+              <header>
+                <h2>
+                  Realidad aumentada
+              </h2>
+              </header>
               
+                <p>
+                    En abril de 2017, Facebook anunció el lanzamiento de filtros de realidad aumentada y 
+                    experiencias interactivas como novedades en la plataforma Camera Effects.42​ 
+                    Esta plataforma  es una plataforma abierta, de manera que cualquier programador 
+                    puede desarrollar sus propios efectos, Facebook optó por esta forma de diseño porque 
+                    acabrá obteniendo una base de efectos mucho más amplia que otras apps cuya plataforma 
+                    de efectos es cerrada.
+                </p>
+                  
+                <aside>
+                    <p>
+                        Mark Zuckerberg al añadir este cambio a la plataforma anunció en la Facebook 
+                        F8 que se imaginaba tres caminos distintos en cuanto a los efectos de realidad 
+                        aumentada: la posibilidad de añadir objetos a la cámara que dieran al usuario 
+                        información adicional como por ejemplo direcciones o reseñas de un sitio, superponer 
+                        objetos de realidad aumentada a objetos reales, o añadir simples efectos a las selfies.
+                    </p>
+        
+                    <img src="../Images/realidad_aumentada_facebook.jpg" alt="realidad aumentada" style="width:370px;height:260px"/><br>
+                    
+                    </aside>
+            </article>
 
       </article>
   </section>
 
-  <section>
-    <article>
-      <header>
-        <h2>
-          Realidad aumentada
-      </h2>
-      </header>
-      
-        <p>
-            En abril de 2017, Facebook anunció el lanzamiento de filtros de realidad aumentada y 
-            experiencias interactivas como novedades en la plataforma Camera Effects.42​ 
-            Esta plataforma  es una plataforma abierta, de manera que cualquier programador 
-            puede desarrollar sus propios efectos, Facebook optó por esta forma de diseño porque 
-            acabrá obteniendo una base de efectos mucho más amplia que otras apps cuya plataforma 
-            de efectos es cerrada.
-        </p>
-          
-        <aside>
-            <p>
-                Mark Zuckerberg al añadir este cambio a la plataforma anunció en la Facebook 
-                F8 que se imaginaba tres caminos distintos en cuanto a los efectos de realidad 
-                aumentada: la posibilidad de añadir objetos a la cámara que dieran al usuario 
-                información adicional como por ejemplo direcciones o reseñas de un sitio, superponer 
-                objetos de realidad aumentada a objetos reales, o añadir simples efectos a las selfies.
-            </p>
 
-            <img src="../Images/realidad_aumentada_facebook.jpg" alt="realidad aumentada" style="width:370px;height:260px"/><br>
-            <p>
-                Conferencia sobre la realidad aumentada
-            </p>
-            <video width="570" height="320" controls>
-                <source src="../videos/realidad_aumentada_video.mp4" type="video/mp4">
-                Video no soportado
-            </video>
-            </aside>
-    </article>
-</section>
+  <div class="separador">
+  </div>
 
-    <footer>
-      <hr style="border-color: black;background-color: black;"/>
-        Jhon Michael Macao Guamán <br>
-        Universidad Politecnica Salesiana<br>
-        Correo: <a href="mailto:jmacao@est.ups.edu.ec">jmacao@est.ups.edu.ec</a><br>
-        Telefono: <a href="tel:+0989449535">0989449535</a><br>
-        &copy; Todos los derechos reservados.
+  <footer class="pie_pag">
+    <span>Autor: Jhon Michael Macao Guamán <br>
+      Universidad Politecnica Salesiana<br>
+      Correo: <a href="mailto:jmacao@est.ups.edu.ec">jmacao@est.ups.edu.ec</a><br>
+      Telefono: <a href="tel:+0989449535">0989449535</a><br>
+    </span>
 
-    </footer>
+    <span class="copy">
+      &copy; Todos los derechos reservados.
+    </span>
+  </footer>
 
 </body>
 
