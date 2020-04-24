@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+
 #logotipo {
     width: 27%;
     height: 140px;
@@ -41,12 +42,21 @@ label, input {
     clear: both;
 }
 
-#lista_nav li {
+.lista_nav li {
     display: inline;
     padding-left: 45px;
     padding-right: 45px;
     background-color: #AEB6BF ;
-    
+    color: black;
+}
+
+.lista_nav li a:hover{
+    background-color: lightgreen;
+}
+
+
+.hipervinculos li a:hover{
+    background-color: lightgreen;
 }
 
 

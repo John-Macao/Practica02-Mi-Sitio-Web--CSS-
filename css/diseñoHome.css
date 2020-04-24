@@ -43,11 +43,16 @@ label, input {
 
 
 /* NAVEGACION*/ 
-#lista_nav li {
+.lista_nav li {
     display: inline;
     padding-left: 45px;
     padding-right: 45px;
     background-color: #AEB6BF ;
+    color: black;
+}
+
+.lista_nav li a:hover{
+    background-color: lightgreen;
 }
 
 
