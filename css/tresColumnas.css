@@ -42,10 +42,22 @@ label, input {
 }
 
 
+#lista_nav li {
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #AEB6BF ;
+}
+
+
+
 .menu {
-    width: 10%;
+    width: 15%;
     float: left;
     border-bottom: 1px tomato solid;
+    padding: 4px;
+    margin: 4px;
+
 }
 
 .central {
@@ -56,7 +68,6 @@ label, input {
     padding-left: 2%;
     float: left;
 
-
 }
 
 .central img {
@@ -66,7 +77,7 @@ label, input {
 }
 
 .lateral {
-    width: 25%;
+    width: 20%;
     padding-bottom: 15px;
     padding-left: 2%;
     float: left;
@@ -74,8 +85,8 @@ label, input {
 }
 
 .lateral img {
-    width: 280px;
-    height: 180px;
+    width: 210px;
+    height: 135px;
     padding-left: 0%;
 }
 

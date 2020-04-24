@@ -41,10 +41,21 @@ label, input {
     clear: both;
 }
 
+#lista_nav li {
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #AEB6BF ;
+    
+}
+
+
 
 .izq {
     width: 15%;
     float: left;
+    padding: 4px;
+    margin: 4px;
 }
 
 .der {
