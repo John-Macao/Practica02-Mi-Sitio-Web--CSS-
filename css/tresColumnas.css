@@ -1,0 +1,42 @@
+body {
+    background-image: url("/images/fondos/rojo_fondo.jfif");
+    margin: 0;
+}
+
+#logotipo {
+    width: 27%;
+    height: 140px;
+    float: left;
+}
+
+label, input {
+    width: 29%;
+    position: relative;
+    top: 40px;
+    background-color: #f5f6f9 ;
+}
+
+#recursoUno {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 680px;
+}
+
+#recursoDos {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 730px;
+}
+
+#recursoTres {
+    width: 3%;
+    position: relative;
+    top: 55px;
+    left: 780px;
+}
+
+#tituloCentral {
+    clear: both;
+}
