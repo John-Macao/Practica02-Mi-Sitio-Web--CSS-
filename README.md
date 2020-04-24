@@ -47,6 +47,9 @@ Pagina whatsapp.html
 
 ## Hojas CSS
 ![2](/imagesReadMe/img13.png?raw=true "Title")
+![2](/imagesReadMe/img14.png?raw=true "Title")
+![2](/imagesReadMe/img15.png?raw=true "Title")
+![2](/imagesReadMe/img16.png?raw=true "Title")
 
 ## 4.	Luego se debe crear el archivo README del repositorio.
 
