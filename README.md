@@ -1,11 +1,12 @@
-# 1.	Crear un repositorio en GitHub con el nombre “Practica02-Mi Sitio Web (CSS)”
+## 1.	Crear un repositorio en GitHub con el nombre “Practica02-Mi Sitio Web (CSS)”
 
 ![1](/imagesReadMe/img1.png?raw=true "Title")
 
-# 2.	Realizar un commit y push por cada requerimiento de los puntos antes descritos
-![1](/imagesReadMe/img2.png?raw=true "Title")
+## 2.	Realizar un commit y push por cada requerimiento de los puntos antes descritos
+![2](/imagesReadMe/img2.png?raw=true "Title")
 
-# 3.	Al finalizar la practica se debe validar todas las paginas HTML y hojas de estilos CSS creadas usando el W3C Validator.
+## 3.	Al finalizar la practica se debe validar todas las paginas HTML y hojas de estilos CSS creadas usando el W3C Validator.
+![2](/imagesReadMe/img3.png?raw=true "Title")
 
 Paginas HTML
 Pagina index.html
