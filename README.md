@@ -87,3 +87,46 @@ En este estilo establecemos los valores para la visualización de la galería de
 ![2](/imagesReadMe/img23.png?raw=true "Title")
 
 
+En este estilo creamos los parámetros para representar a un listado, podemos observar el ancho y margen que se le da, así mismo utilizamos el display: flex , que es el que nos permite tenerlo en forma horizontal.
+
+![2](/imagesReadMe/img24.png?raw=true "Title")
+
+En este caso utilizamos el mismo estilo definido anteriormente pero en este caso le establecemos los parámetros para todas las imágenes que estén dentro del selector “creadores”
+
+![2](/imagesReadMe/img25.png?raw=true "Title")
+
+
+Así mismo definimos un estilo para el pie de la página, en este caso haciendo uso del padding tanto arriba como abajo, así mismo el borde que establecemos, y finalmente con un color y alineación del texto dentro del contenedor.
+
+
+![2](/imagesReadMe/img26.png?raw=true "Title")
+
+También definimos un estilo de texto para las diferentes etiquetas dentro de la pagina
+
+![2](/imagesReadMe/img27.png?raw=true "Title")
+
+
+## 6.	Se pide organizar por lo menos cuatro archivos css
+
+![2](/imagesReadMe/img28.png?raw=true "Title")
+
+
+
+## 7.	Se pide crear un menú horizontal para todas las páginas.
+![2](/imagesReadMe/img29.png?raw=true "Title")
+
+
+
+## 8.	Se debe incluir la información del GitHub
+
+https://github.com/John-Macao/Practica02-Mi-Sitio-Web--CSS-.git  
+
+
+
+
+
+
+
+
+
+
